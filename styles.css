@@ -1,0 +1,192 @@
+html {
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    background-color: rgba(16, 79, 126, 0.926);
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    max-width: 800px;
+    display: flex;
+    justify-content: center;
+}
+
+.App {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.Header, .main, .Footer {
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.Header {
+    height: 25%;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    padding: 10px;
+    position: relative;
+}
+
+.Foto {
+    width: 200px;
+}
+
+.social-media {
+    display: flex;
+    justify-content: left;
+    gap: 7px;
+}
+
+.language-btn {
+    top: 3%;
+    right: 1%;
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 5px;
+    padding: 2px 10px;
+    background-color: rgb(158, 45, 45);
+    color:white
+}
+
+.main {
+    height: 70%;
+    margin: 10px;
+    display: flex;
+    padding: 5px 30px;
+    align-items: top;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.main-left {
+    width: 50%;
+}
+
+.main-right {
+    width: 50%;
+    padding-left: 30px;
+}
+
+.Footer {
+    height: 5%;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.footer-text {
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+h2 {
+    font-size: 1.4rem;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+h4 {
+    font-size: 0.9rem;
+    font-weight: 700;
+    margin-bottom: 6px;
+    margin-top: 6px;
+}
+
+p {
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+adress {
+    padding-top: 0;
+    margin-top: 0;
+    font-style: italic;
+    font-weight: 500;
+}
+
+date {
+    font-style: italic;
+    font-weight: 600;
+}
+
+a {color: rgba(16, 79, 126, 0.926), }
+a:active {color: rgba(16, 79, 126, 0.926)}
+a:hover {color: black}
+a:visited {color: rgba(16, 79, 126, 0.926)}
+
+.skill {
+    display: flex;
+    align-items: center;
+  }
+
+.skill-html, .skill-css, .skill-js, .skill-react {
+    background-color: rgba(9, 46, 75, 0.926);
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    height: 20px;
+    margin-left: 10px;
+    position: relative;
+}
+
+.skill-html::after {
+    content: "";
+    background-color: rgba(16, 79, 126, 0.926);
+    border-radius: 5px;
+    width: 95%;
+    height: 100%;
+    position: absolute;
+    top: 0}
+
+.skill-css::after {
+    content: "";
+    background-color: rgba(16, 79, 126, 0.926);
+    border-radius: 5px;
+    width: 85%;
+    height: 100%;
+    position: absolute;
+    top: 0}
+    
+.skill-js::after {
+    content: "";
+    background-color: rgba(16, 79, 126, 0.926);
+    border-radius: 5px;
+    width: 90%;
+    height: 100%;
+    position: absolute;
+    top: 0}
+
+.skill-react::after {
+    content: "";
+    background-color: rgba(16, 79, 126, 0.926);
+    border-radius: 5px;
+    width: 90%;
+    height: 100%;
+    position: absolute;
+    top: 0}
