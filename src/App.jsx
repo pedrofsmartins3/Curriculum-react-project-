@@ -1,8 +1,8 @@
-import Header from "./components/Header.jsx";
-import Main from "./components/Main.jsx";
-import Footer from "./components/Footer.jsx";
+import Header from "./components/Header";
+import Main from "./components/Main";
+import Footer from "./components/Footer";
 import { useState } from "react";
-import { en, pt } from "./Translation.jsx";
+import { en, pt } from "./Translation";
 
 export default function App() {
   const [eng, setEng] = useState(true);
