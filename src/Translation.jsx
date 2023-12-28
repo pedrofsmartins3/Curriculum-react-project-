@@ -1,3 +1,4 @@
+// ENGLISH
 export const en = {
   name: "en",
   setLanguage: "Mudar para Portguês",
@@ -42,6 +43,7 @@ export const en = {
   subtitle6: "My personal GitHub repositories!",
 };
 
+// PORTUGUÊS
 export const pt = {
   name: "pt",
   setLanguage: "Change to English",

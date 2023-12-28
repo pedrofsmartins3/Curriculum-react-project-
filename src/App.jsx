@@ -1,11 +1,11 @@
 import Header from "./components/Header.jsx";
 import Main from "./components/Main.jsx";
 import Footer from "./components/Footer.jsx";
-import React from "react";
+import { useState } from "react";
 import { en, pt } from "./Translation.jsx";
 
 export default function App() {
-  const [eng, setEng] = React.useState(true);
+  const [eng, setEng] = useState(true);
 
   function changeLanguage() {
     setEng((prevLang) => !prevLang);
