@@ -9,7 +9,6 @@ export default function App() {
 
   function changeLanguage() {
     setEng((prevLang) => !prevLang);
-    console.log(eng);
   }
 
   const translation = eng ? en : pt;
