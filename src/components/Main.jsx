@@ -3,11 +3,11 @@ import { FaCss3Alt } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
 import { FaReact } from "react-icons/fa";
 
-export default function Main({ translation }) {
+export default function Main({ color, translation }) {
   return (
     <main className="main">
       <section className="main-left">
-        <h2>{translation.title1}</h2>
+        <h2 style={color}>{translation.title1}</h2>
         <h3>
           {translation.subtitle1}
           <p className="date" id="work_p">
@@ -46,7 +46,7 @@ export default function Main({ translation }) {
         </ul>
       </section>
       <section className="main-right">
-        <h2>{translation.title2}</h2>
+        <h2 style={color}>{translation.title2}</h2>
 
         <h3>
           {translation.subtitle4}
@@ -63,7 +63,7 @@ export default function Main({ translation }) {
         </h3>
         <p className="adress">{translation.adress5}</p>
 
-        <h2>{translation.title3}</h2>
+        <h2 style={color}>{translation.title3}</h2>
 
         <div className="skill">
           <h4 id="htmltitle">
@@ -90,11 +90,12 @@ export default function Main({ translation }) {
           <div className="skill-react"></div>
         </div>
 
-        <h2>{translation.title4}</h2>
+        <h2 style={color}>{translation.title4}</h2>
         <a
           href="https://github.com/pedrofsmartins3?tab=repositories"
           target="_blank"
           rel="noreferrer"
+          style={color}
         >
           {translation.subtitle6}
         </a>

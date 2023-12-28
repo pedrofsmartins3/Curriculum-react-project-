@@ -2,9 +2,12 @@ import image from "./images/Foto-Pedro.png";
 import { FaLinkedin } from "react-icons/fa6";
 import { FaGithubSquare } from "react-icons/fa";
 
-export default function Header({ translation, changeLanguage }) {
-  const isEnglish = translation.name == "en";
-
+export default function Header({
+  translation,
+  changeLanguage,
+  color,
+  backgroundColor,
+}) {
   return (
     <div className="Header">
       <img src={image} alt="Foto" className="Foto" />
@@ -18,6 +21,7 @@ export default function Header({ translation, changeLanguage }) {
             href="https://www.linkedin.com/in/pedrofsmartins3/"
             target="_blank"
             rel="noreferrer"
+            style={color}
           >
             <FaLinkedin />
           </a>
@@ -26,6 +30,7 @@ export default function Header({ translation, changeLanguage }) {
             href="https://github.com/pedrofsmartins3"
             target="_blank"
             rel="noreferrer"
+            style={color}
           >
             <FaGithubSquare />
           </a>
@@ -33,11 +38,7 @@ export default function Header({ translation, changeLanguage }) {
       </div>
       <button
         className="language-btn"
-        style={{
-          backgroundColor: isEnglish
-            ? "rgba(141, 185, 218, 0.926)"
-            : "rgba(221, 128, 128, 0.926)",
-        }}
+        style={backgroundColor}
         onClick={changeLanguage}
       >
         {translation.setLanguage}
