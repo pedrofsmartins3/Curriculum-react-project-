@@ -189,7 +189,9 @@ li {
     padding-left: 5px;
 }
 
-a {color: #555}
+a {
+    color: #555
+}
 a:active {color: #555}
 a:hover {color: #555}
 a:visited {color: #555}
