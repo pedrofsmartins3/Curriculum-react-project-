@@ -67,28 +67,49 @@ export default function Main({ color, translation }) {
 
         <div className="skill">
           <h4 id="htmltitle">
-            HTML <FaHtml5 />
+            <a
+              href="https://freecodecamp.org/certification/pedrofsmartins3/responsive-web-design"
+              target="_blank"
+              rel="noreferrer"
+            >
+              HTML <FaHtml5 />
+            </a>
           </h4>
           <div className="skill-html"></div>
         </div>
         <div className="skill">
           <h4 id="csstitle">
-            CSS <FaCss3Alt />{" "}
+            <a
+              href="https://freecodecamp.org/certification/pedrofsmartins3/responsive-web-design"
+              target="_blank"
+              rel="noreferrer"
+            >
+              CSS <FaCss3Alt />
+            </a>
           </h4>
           <div className="skill-css"></div>
         </div>
         <div className="skill">
           <h4 id="javascripttitle">
-            JavaScript <IoLogoJavascript />
+            <a
+              href="https://freecodecamp.org/certification/pedrofsmartins3/javascript-algorithms-and-data-structures"
+              target="_blank"
+              rel="noreferrer"
+            >
+              JavaScript <IoLogoJavascript />
+            </a>
           </h4>
           <div className="skill-js"></div>
         </div>
         <div className="skill">
           <h4 id="organizationtitle">
+            {" "}
             React <FaReact />
           </h4>
           <div className="skill-react"></div>
         </div>
+
+        <p className="discription4">&uarr; {translation.description4}</p>
 
         <h2 style={color}>{translation.title4}</h2>
         <a

@@ -38,6 +38,7 @@ export const en = {
   adress5: "FADEUP, University of Porto",
   // THRID SECTION
   title3: "Software Skills",
+  description4: "Click to see certification",
   // FOURTH SECTION
   title4: "GitHub Repositories",
   subtitle6: "My personal GitHub repositories!",
@@ -83,6 +84,7 @@ export const pt = {
   adress5: "FADEUP, Universidade do Porto",
   // THRID SECTION
   title3: "Habilidades de Programação",
+  description4: "Clique para ver certificado",
   // FOURTH SECTION
   title4: "Repositórios do GitHub",
   subtitle6: "Os meus repositórios do GitHub!",
