@@ -3,6 +3,7 @@ export const en = {
   name: "en",
   setLanguage: "Mudar para Portguês",
   profession: "Programmer and Web Designer",
+  contacts: "Contacts:",
   // MAIN STARTS HERE
   // FIRST SECTION
   title1: "Professional Experience",
@@ -33,12 +34,13 @@ export const en = {
   date4: "- 2013 to 2016",
   adress4: "Carvalhos Boarding School, Porto",
   // UNIVERSITY
-  subtitle5: "University education",
+  subtitle5: "University Education",
   date5: "- 2018 to 2022",
   adress5: "FADEUP, University of Porto",
+  description4: "Sports Science Graduation",
   // THRID SECTION
   title3: "Software Skills",
-  description4: "Click to see certification",
+  description5: "Click to see certification",
   // FOURTH SECTION
   title4: "GitHub Repositories",
   subtitle6: "My personal GitHub repositories!",
@@ -50,6 +52,7 @@ export const pt = {
   setLanguage: "Change to English",
   profession: "Programador e Web Designer",
   socialmedia: "Vê as minhas redes sociais:",
+  contacts: "Contactos:",
   // MAIN COMEÇA AQUI
   // PRIMEIRA SECÇÃO
   title1: "Experiência Profissional",
@@ -82,9 +85,10 @@ export const pt = {
   subtitle5: "Ensino Universitário",
   date5: "- 2018 a 2022",
   adress5: "FADEUP, Universidade do Porto",
+  description4: "Licenciatura em Ciências do Desporto",
   // THRID SECTION
   title3: "Habilidades de Programação",
-  description4: "Clique para ver certificado",
+  description5: "Clique para ver certificado",
   // FOURTH SECTION
   title4: "Repositórios do GitHub",
   subtitle6: "Os meus repositórios do GitHub!",

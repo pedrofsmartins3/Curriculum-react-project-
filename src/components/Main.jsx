@@ -62,6 +62,15 @@ export default function Main({ color, translation }) {
           </p>
         </h3>
         <p className="adress">{translation.adress5}</p>
+        <a
+          className="adress"
+          href="https://drive.google.com/file/d/1x4km-XrPTAyUfGMfFSsMxPT-Mw3xYctG/view?usp=drive_link"
+          target="_blank"
+          rel="noreferrer"
+          style={color}
+        >
+          {translation.description4}
+        </a>
 
         <h2 style={color}>{translation.title3}</h2>
 
@@ -109,7 +118,7 @@ export default function Main({ color, translation }) {
           <div className="skill-react"></div>
         </div>
 
-        <p className="discription4">&uarr; {translation.description4}</p>
+        <p className="discription4">&uarr; {translation.description5}</p>
 
         <h2 style={color}>{translation.title4}</h2>
         <a
@@ -117,7 +126,6 @@ export default function Main({ color, translation }) {
           target="_blank"
           rel="noreferrer"
           style={color}
-          className="2"
         >
           {translation.subtitle6}
         </a>

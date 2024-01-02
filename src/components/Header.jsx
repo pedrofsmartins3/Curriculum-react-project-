@@ -21,8 +21,17 @@ export default function Header({
       <div className="Header-text">
         <h1 className="Name">Pedro Martins</h1>
         <h2 className="Profession">{translation.profession}</h2>
+        <div className="contacts">
+          <span className="contacts-title">{translation.contacts}</span>
+          <a style={color} href="mailto:name@email.com">
+            pedrofsmartins3@gmail.com
+          </a>
+          <a style={color} href="tel:+1234567890">
+            +351 930593707
+          </a>
+        </div>
         <div className="social-media">
-          <h5>{translation.socialmedia}</h5>
+          <p>{translation.socialmedia}</p>
           <a
             className="social-icon"
             href="https://www.linkedin.com/in/pedrofsmartins3/"
