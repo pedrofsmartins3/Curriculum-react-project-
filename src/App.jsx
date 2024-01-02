@@ -24,7 +24,7 @@ export default function App() {
   const translation = eng ? en : pt;
 
   return (
-    <div className="App" style={backgroundColor}>
+    <div className="container" style={backgroundColor}>
       <Header
         translation={translation}
         changeLanguage={changeLanguage}

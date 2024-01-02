@@ -9,8 +9,15 @@ export default function Header({
   backgroundColor,
 }) {
   return (
-    <div className="Header">
-      <img src={image} alt="Foto" className="Foto" />
+    <div className="header">
+      <button
+        className="language-btn"
+        style={backgroundColor}
+        onClick={changeLanguage}
+      >
+        {translation.setLanguage}
+      </button>
+      <img src={image} alt="Foto" className="Foto" width="150px" />
       <div className="Header-text">
         <h1 className="Name">Pedro Martins</h1>
         <h2 className="Profession">{translation.profession}</h2>
@@ -36,13 +43,6 @@ export default function Header({
           </a>
         </div>
       </div>
-      <button
-        className="language-btn"
-        style={backgroundColor}
-        onClick={changeLanguage}
-      >
-        {translation.setLanguage}
-      </button>
     </div>
   );
 }

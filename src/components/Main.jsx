@@ -5,13 +5,13 @@ import { FaReact } from "react-icons/fa";
 
 export default function Main({ color, translation }) {
   return (
-    <main className="main">
+    <main>
       <section className="main-left">
         <h2 style={color}>{translation.title1}</h2>
         <h3>
           {translation.subtitle1}
           <p className="date" id="work_p">
-            &rarr; {translation.date1}
+            {translation.date1}
           </p>
         </h3>
         <p className="adress">{translation.adress1}</p>
@@ -22,7 +22,7 @@ export default function Main({ color, translation }) {
         <h3>
           {translation.subtitle2}
           <p className="date" id="work_p">
-            &rarr; {translation.date2}
+            {translation.date2}
           </p>
         </h3>
         <p className="adress">{translation.adress2}</p>
@@ -34,7 +34,7 @@ export default function Main({ color, translation }) {
         <h3>
           {translation.subtitle3}
           <p className="date" id="work_p">
-            &rarr; {translation.date3}
+            {translation.date3}
           </p>
         </h3>
         <p className="adress">{translation.adress3}</p>
@@ -51,14 +51,14 @@ export default function Main({ color, translation }) {
         <h3>
           {translation.subtitle4}
           <p className="date" id="work_p">
-            &rarr; {translation.date4}
+            {translation.date4}
           </p>
         </h3>
         <p className="adress">{translation.adress4}</p>
         <h3>
           {translation.subtitle5}
           <p className="date" id="work_p">
-            &rarr; {translation.date5}
+            {translation.date5}
           </p>
         </h3>
         <p className="adress">{translation.adress5}</p>
@@ -117,6 +117,7 @@ export default function Main({ color, translation }) {
           target="_blank"
           rel="noreferrer"
           style={color}
+          className="2"
         >
           {translation.subtitle6}
         </a>
