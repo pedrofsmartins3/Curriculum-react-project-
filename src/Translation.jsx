@@ -10,12 +10,12 @@ export const en = {
   socialmedia: "Check my social media:",
   // FIRST JOB
   subtitle1: "Primavera Sound Festival",
-  date1: "- 2018",
+  date1: "- 2017",
   adress1: "Barcelona, Spain",
   description1: "Seller in one of the event bars",
   // SECOND JOB
   subtitle2: "Futebol Coach",
-  date2: "- 2018 to 2019",
+  date2: "- 2017 to 2018",
   adress2: "Porto, Portugal",
   description2: "Coach from under 5 to under 12",
   description22: "Teach young kids about discipline and team building",
@@ -58,12 +58,12 @@ export const pt = {
   title1: "Experiência Profissional",
   // PRIMEIRO TRABALHO
   subtitle1: "Primavera Sound Festival",
-  date1: "- 2018",
+  date1: "- 2017",
   adress1: "Barcelona, Espanha",
   description1: "Vendedor num dos bares do evento",
   // SEGUNDO TRABALHO
   subtitle2: "Treinador de Futebol",
-  date2: "- 2018 a 2019",
+  date2: "- 2017 a 2018",
   adress2: "Porto, Portugal",
   description2: "Treinador desde sub 5 a sub 12",
   description22: "Ensinei crianças sobre disciplina e trabalho em equipa",
